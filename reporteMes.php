@@ -67,7 +67,7 @@ ob_start();
 					print "<tr>";
 					print "<td>".$reporte_array[$i]["concepto"]."</td>";
                     print "<td>".$reporte_array[$i]["Tipo"]."</td>";
-					print "<td>".number_format($reporte_array[$i]["total"],2)."</td>";
+					print "<td>".number_format($reporte_array[$i]["cantidad"],2)."</td>";
                     print "<td>".$reporte_array[$i]["fecha"]."</td>";
 					print "</tr>";
 				}	
